@@ -1,0 +1,21 @@
+config:
+  target: https://your-app-uat.yourdomain.com/
+  engines:
+    playwright: {}
+  processor: "./tests/artillery/login.js"
+  phases:
+  # injects one user every second for 10 seconds
+    - name: constantArrival
+      duration: 10
+      arrivalRate: 1
+  # pause
+    - name: pause
+      pause: 1
+  # ramp up
+    - name: Ramp up
+      duration: 10
+      arrivalRate: 5
+      rampTo: 10
+scenarios:
+  - engine: playwright
+    testFunction: "artilleryScript"

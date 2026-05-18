@@ -1,0 +1,6 @@
+{
+	"standard_user": "your.email@domain.com",
+	"user_name": "your_username",
+	"password": "your_password",
+	"successMessageOnSignup": "Your account is pending approval. You'll receive an email once it's approved."
+}

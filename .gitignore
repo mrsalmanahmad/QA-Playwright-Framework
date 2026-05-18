@@ -1,0 +1,13 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+allure-results/
+screenshots/
+.auth/
+*.json.html
+loadTest*.json
+results*.json
+allure-report/
+playwright-report.zip
