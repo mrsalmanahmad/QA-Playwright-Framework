@@ -1,4 +1,4 @@
-# PocketFactory Automation Framework
+# Playwright Automation Framework
 
 A production-ready end-to-end test automation framework built with **Playwright** and **TypeScript/JavaScript**, following the **Page Object Model (POM)** pattern. Designed to be scalable, maintainable, and easy to onboard new team members.
 
